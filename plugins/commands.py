@@ -201,11 +201,4 @@ async def bot_info(bot, message):
         ]
         ]
         await message.reply(text="<b>Developer : <a href='https://t.me/Jinn_007'>꧁Ⓜⓤⓣⓗⓐⓛⓘⓑ_★࿐</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSource Code : <a href='https://github.com/Jinn-Of-Telegram/Media-Search-bot-V2'>Click here</a>\nUpdate Channel : <a href='https://t.me/ErrorXBotz'>ErrorXBotz</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
-       )
-    elif query.data == "help":
-        buttons = [
-            [
-                InlineKeyboardButton('Update Channel', url='https://t.me/ErrorXbotz'),
-                InlineKeyboardButton('Bot Owner', url='https://t.me/ErrorXbotz')
-            ]
-            ]
+    
