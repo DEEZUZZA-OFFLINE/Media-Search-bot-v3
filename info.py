@@ -34,8 +34,7 @@ Here you can search files in Inline mode as well as PM, Use the below buttons to
 """
 START_MSG = environ.get('START_MSG', default_start_msg)
 
-PICS = (environ.get('PICS', 'https://telegra.ph/file/6a0726f79acd8300e9a04.jpg)).split()
-
+PICS = (environ.get('PICS', 'https://telegra.ph/file/3d87cdb638b5444198c59.jpg https://telegra.ph/file/2140af3c0cb1c848ef5a0.jpg https://telegra.ph/file/f5c3720b2ce9d1d97d59f.jpg')).split()
 FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "")
 OMDB_API_KEY = environ.get("OMDB_API_KEY", "")
 if FILE_CAPTION.strip() == "":
